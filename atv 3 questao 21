@@ -1,0 +1,17 @@
+//atv 3 q 21
+#include <stdlib.h>
+#include <stdio.h>
+
+int main()
+{
+    
+    char cidade[50];
+    scanf("%s",&cidade);
+    if (cidade[0]=='S'){
+        printf("Começa com S");
+    } else{
+        printf("Não começa com S");
+    }
+
+    return 0;
+}
